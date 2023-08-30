@@ -7,7 +7,7 @@ add.addEventListener('click',()=>{
 `
 <div class="list">
     <div class="list-item" id='listim${i}'>
-        <input type="text" placeholder="your schedule" id='input${i}'>
+        <input type="text" placeholder="Your Schedule" id='input${i}'>
     </div>
     <div class="save-edit" id='saveedit${i}' onclick='saveedit(${i})'>
         <i class="fa-regular fa-floppy-disk save" id='save${i}' ></i>
